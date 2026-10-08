@@ -4,7 +4,7 @@
 
 <p align="center">Fakture, knjiga prihoda, porezi i doprinosi za samostalne preduzetnike u Republici Srpskoj.</p>
 
-<p align="center"><b>Najnovija verzija: 1.0.4</b> (08.10.2026.) · <a href="https://github.com/gligor99/evidenta-releases/releases/latest">Preuzmi</a></p>
+<p align="center"><b>Najnovija verzija: 1.0.5</b> (08.10.2026.) · <a href="https://github.com/gligor99/evidenta-releases/releases/latest">Preuzmi</a></p>
 
 ## Preuzimanje
 
@@ -28,6 +28,14 @@ Evidenta još nije potpisana plaćenim certifikatom, pa sistem pri prvom pokreta
 Probni period traje 30 dana. Ključ licence unosite u *Postavke → Licenca i ažuriranja*.
 
 ## Šta je novo
+
+### 1.0.5 — 08.10.2026.
+
+#### Popravke
+- **Doprinosi i porez:** mjesec za koji postoji uplata sa izvoda banke prikazuje se kao plaćen, i kad se iznos razlikuje od obračuna (npr. druga osnovica prošle godine).
+- **Pravila iz izvoda:** kad za neku godinu nisu unesena pravila, a uplate sa izvoda pokazuju drugi iznos doprinosa, aplikacija predlaže prosječnu bruto platu za tu godinu jednim klikom.
+- Mjeseci prije početka rada više se ne prikazuju kao neplaćeni.
+- Uplata koja pokriva više mjeseci (npr. april i maj) raspoređuje se na sve te mjesece.
 
 ### 1.0.4 — 08.10.2026.
 

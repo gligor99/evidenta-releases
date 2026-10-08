@@ -4,7 +4,7 @@
 
 <p align="center">Fakture, knjiga prihoda, porezi i doprinosi za samostalne preduzetnike u Republici Srpskoj.</p>
 
-<p align="center"><b>Najnovija verzija: 1.0.5</b> (08.10.2026.) · <a href="https://github.com/gligor99/evidenta-releases/releases/latest">Preuzmi</a></p>
+<p align="center"><b>Najnovija verzija: 1.0.6</b> (08.10.2026.) · <a href="https://github.com/gligor99/evidenta-releases/releases/latest">Preuzmi</a></p>
 
 ## Preuzimanje
 
@@ -28,6 +28,18 @@ Evidenta još nije potpisana plaćenim certifikatom, pa sistem pri prvom pokreta
 Probni period traje 30 dana. Ključ licence unosite u *Postavke → Licenca i ažuriranja*.
 
 ## Šta je novo
+
+### 1.0.6 — 08.10.2026.
+
+#### Novo
+- **Rokovi na početnoj:** porez (do 10.) i doprinosi (do 15.) za prethodni mjesec, fakture koje kasne ili uskoro dospijevaju i profakture koje ističu — sa iznosom i brojem dana.
+- **Podsjetnici:** desktop obavještenje jednom dnevno kad nešto kasni ili ističe. Može se isključiti u *Postavke → Porezi i doprinosi*.
+- **Rokovi u kalendar:** jednim klikom u Google, Apple ili Outlook kalendar (porez i doprinosi svaki mjesec, rokovi plaćanja faktura).
+- **Izvoz u Excel:** knjiga prihoda, troškovi, fakture i profakture, klijenti i uplate poreza i doprinosa — za knjigovođu ili vlastite tabele.
+- **Uplata poreza i doprinosa sa datumom:** kad označite mjesec kao plaćen, birate datum i iznos. Uplata koja je pokrila više mjeseci (npr. april i maj) može se rasporediti na te mjesece.
+
+#### Izmjene
+- Kašnjenje se prikazuje u godinama, mjesecima i danima („Kasni 1 godinu i 4 mjeseca“), a ne samo u danima.
 
 ### 1.0.5 — 08.10.2026.
 

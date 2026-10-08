@@ -4,7 +4,7 @@
 
 <p align="center">Fakture, knjiga prihoda, porezi i doprinosi za samostalne preduzetnike u Republici Srpskoj.</p>
 
-<p align="center"><b>Najnovija verzija: 1.0.2</b> (08.10.2026.) · <a href="https://github.com/gligor99/evidenta-releases/releases/latest">Preuzmi</a></p>
+<p align="center"><b>Najnovija verzija: 1.0.3</b> (08.10.2026.) · <a href="https://github.com/gligor99/evidenta-releases/releases/latest">Preuzmi</a></p>
 
 ## Preuzimanje
 
@@ -28,6 +28,13 @@ Evidenta još nije potpisana plaćenim certifikatom, pa sistem pri prvom pokreta
 Probni period traje 30 dana. Ključ licence unosite u *Postavke → Licenca i ažuriranja*.
 
 ## Šta je novo
+
+### 1.0.3 — 08.10.2026.
+
+#### Novo
+- **Uvoz postojećih faktura:** izaberite PDF-ove ili cijeli folder sa fakturama koje ste ranije izdavali (npr. iz Invoice Ninje). Klijenti se prave automatski iz podataka kupca, duplikati se preskaču, a originalni PDF se čuva uz svaku fakturu.
+- **Uvoz izvoda iz banke (CSV):** uplate zatvaraju fakture sa stvarnim datumom uplate i brojem izvoda, uplate doprinosa i poreza se prepoznaju iz poziva na broj, a troškovi i provizije banke se upisuju sami. Prenosi između vlastitih računa i isplate vlasniku se preskaču. Prije upisa sve možete pregledati i promijeniti, a ponovni uvoz istog izvoda ništa ne duplira. Za sada podržava CSV izvoz ProCredit banke.
+- Oba uvoza su u *Postavke → Uvoz podataka*.
 
 ### 1.0.2 — 08.10.2026.
 

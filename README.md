@@ -4,7 +4,7 @@
 
 <p align="center">Fakture, knjiga prihoda, porezi i doprinosi za samostalne preduzetnike u Republici Srpskoj.</p>
 
-<p align="center"><b>Najnovija verzija: 1.0.3</b> (08.10.2026.) · <a href="https://github.com/gligor99/evidenta-releases/releases/latest">Preuzmi</a></p>
+<p align="center"><b>Najnovija verzija: 1.0.4</b> (08.10.2026.) · <a href="https://github.com/gligor99/evidenta-releases/releases/latest">Preuzmi</a></p>
 
 ## Preuzimanje
 
@@ -28,6 +28,17 @@ Evidenta još nije potpisana plaćenim certifikatom, pa sistem pri prvom pokreta
 Probni period traje 30 dana. Ključ licence unosite u *Postavke → Licenca i ažuriranja*.
 
 ## Šta je novo
+
+### 1.0.4 — 08.10.2026.
+
+#### Novo
+- **Skenirane i fotografisane fakture:** uvoz čita tekst i sa slike (PDF bez teksta, JPG, PNG), bez interneta, na bosanskom, hrvatskom, srpskom i engleskom.
+- **Fakture iz bilo kog programa:** pored Invoice Ninje prepoznaju se uobičajene oznake (Broj računa, Datum, Za uplatu, Kupac, Invoice No, Total, Bill To…).
+- **Ručna dopuna:** šta se ne pročita, upišete u pregledu uvoza; fajl se može otvoriti direktno iz tabele.
+- **Ulazne fakture → troškovi:** računi koje ste dobili od dobavljača (kupac je vaša firma) upisuju se kao troškovi, sa kategorijom i originalom. Original se otvara iz liste troškova.
+
+#### Popravke
+- Nakon brisanja podataka više se ne vraćaju podaci iz stare verzije („SP Evidencija“).
 
 ### 1.0.3 — 08.10.2026.
 

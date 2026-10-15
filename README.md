@@ -4,7 +4,7 @@
 
 <p align="center">Fakture, knjiga prihoda, porezi i doprinosi za samostalne preduzetnike u Republici Srpskoj.</p>
 
-<p align="center"><b>Najnovija verzija: 1.0.6</b> (08.10.2026.) · <a href="https://github.com/gligor99/evidenta-releases/releases/latest">Preuzmi</a></p>
+<p align="center"><b>Najnovija verzija: 1.0.7</b> (15.10.2026.) · <a href="https://github.com/gligor99/evidenta-releases/releases/latest">Preuzmi</a></p>
 
 ## Preuzimanje
 
@@ -28,6 +28,16 @@ Evidenta još nije potpisana plaćenim certifikatom, pa sistem pri prvom pokreta
 Probni period traje 30 dana. Ključ licence unosite u *Postavke → Licenca i ažuriranja*.
 
 ## Šta je novo
+
+### 1.0.7 — 15.10.2026.
+
+#### Novo
+- **Dugme „Dodaj rokove u kalendar“** na početnoj (kartica Rokovi) i u *Postavke → Podsjetnici o rokovima*, sa uputstvom kako se fajl uvozi u Apple, Outlook i Google kalendar.
+- **O aplikaciji** (*Postavke*): verzija, podrška, prijava problema emailom (sa verzijom i sistemom), logovi, politika privatnosti, uslovi korištenja i licence otvorenog koda.
+
+#### Izmjene
+- Ikonica za dodavanje pojedinačnog roka u kalendar sada je uvijek vidljiva.
+- Licenca za koju je vraćen novac više ne važi; aplikacija prikazuje razlog.
 
 ### 1.0.6 — 08.10.2026.
 

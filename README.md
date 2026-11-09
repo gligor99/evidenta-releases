@@ -4,7 +4,7 @@
 
 <p align="center">Fakture, knjiga prihoda, porezi i doprinosi za samostalne preduzetnike u Republici Srpskoj.</p>
 
-<p align="center"><b>Najnovija verzija: 1.0.1</b> (09.11.2026.) · <a href="https://github.com/gligor99/evidenta-releases/releases/latest">Preuzmi</a></p>
+<p align="center"><b>Najnovija verzija: 1.0.2</b> (09.11.2026.) · <a href="https://github.com/gligor99/evidenta-releases/releases/latest">Preuzmi</a></p>
 
 ## Preuzimanje
 
@@ -28,6 +28,12 @@ Evidenta još nije potpisana plaćenim certifikatom, pa sistem pri prvom pokreta
 Probni period traje 30 dana. Ključ licence unosite u *Postavke → Licenca i ažuriranja*.
 
 ## Šta je novo
+
+### 1.0.2 — 09.11.2026.
+
+- **Ljepši QR kod za plaćanje:** zaobljene tačke i Evidenta znak u sredini, manji, sa natpisom „Instrukcije za plaćanje“ / „Payment instructions“.
+- Podaci za plaćanje pored QR koda ostaju u jednom redu.
+- Savjet: kraći link (npr. vlastiti kratki link koji vodi na bankin) daje QR sa mnogo manje tačkica.
 
 ### 1.0.1 — 09.11.2026.
 

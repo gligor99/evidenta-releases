@@ -4,7 +4,7 @@
 
 <p align="center">Fakture, knjiga prihoda, porezi i doprinosi za samostalne preduzetnike u Republici Srpskoj.</p>
 
-<p align="center"><b>Najnovija verzija: 1.0.0</b> (17.10.2026.) · <a href="https://github.com/gligor99/evidenta-releases/releases/latest">Preuzmi</a></p>
+<p align="center"><b>Najnovija verzija: 1.0.1</b> (09.11.2026.) · <a href="https://github.com/gligor99/evidenta-releases/releases/latest">Preuzmi</a></p>
 
 ## Preuzimanje
 
@@ -28,6 +28,12 @@ Evidenta još nije potpisana plaćenim certifikatom, pa sistem pri prvom pokreta
 Probni period traje 30 dana. Ključ licence unosite u *Postavke → Licenca i ažuriranja*.
 
 ## Šta je novo
+
+### 1.0.1 — 09.11.2026.
+
+- **Uvoz izvoda iz bilo koje banke, CSV ili PDF:** izvod ili pregled transakcija preuzet iz e-bankinga se čita sam, bez obzira na format (npr. novi ProCredit PDF izvodi).
+- Provizije banke iz pregleda transakcija pripisuju se odgovarajućoj uplati, a naknada za održavanje računa ide u troškove. Ista transakcija iz izvoda i iz pregleda upisuje se samo jednom.
+- **QR kod za plaćanje na fakturi:** u *Postavke → Bankovni računi* zalijepite link za instrukcije plaćanja iz e-bankinga (domaći za KM račun, inostrani za devizni). Kupac skenira QR telefonom i dobije podatke za uplatu. Uključuje se i isključuje u izboru polja fakture.
 
 ### 1.0.0 — 17.10.2026.
 

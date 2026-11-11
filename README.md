@@ -4,7 +4,7 @@
 
 <p align="center">Fakture, knjiga prihoda, porezi i doprinosi za samostalne preduzetnike u Republici Srpskoj.</p>
 
-<p align="center"><b>Najnovija verzija: 1.0.5</b> (11.11.2026.) · <a href="https://github.com/gligor99/evidenta-releases/releases/latest">Preuzmi</a></p>
+<p align="center"><b>Najnovija verzija: 1.0.6</b> (11.11.2026.) · <a href="https://github.com/gligor99/evidenta-releases/releases/latest">Preuzmi</a></p>
 
 ## Preuzimanje
 
@@ -28,6 +28,18 @@ Evidenta još nije potpisana plaćenim certifikatom, pa sistem pri prvom pokreta
 Probni period traje 30 dana. Ključ licence unosite u *Postavke → Licenca i ažuriranja*.
 
 ## Šta je novo
+
+### 1.0.6 — 11.11.2026.
+
+- **Slanje fakture kupcu:** dugme *Pošalji* otvara novu poruku sa PDF-om u prilogu (Apple Mail, Outlook) i gotovim tekstom na jeziku fakture. Za fakturu koja kasni tu je i *Podsjetnik*.
+- **Ponavljajuće fakture:** za klijente na mjesečnom održavanju Evidenta svakog mjeseca sama napravi nacrt fakture, koji samo provjerite i izdate.
+- **Koliko smijem potrošiti:** na početnoj stranici iznos koji je stvarno vaš, nakon troškova, poreza i doprinosa.
+- **Kurs USD sa kursne liste CBBiH:** na USD fakturama kurs se sam popuni srednjim kursom na dan izdavanja.
+- **Pretraga (Cmd/Ctrl+K):** brzo nađite klijenta, fakturu (i po iznosu), trošak ili ekran.
+- **Poništi nakon brisanja:** obrisan trošak, klijent ili nacrt vraćate jednim klikom.
+- **Primjer sa izmišljenim podacima:** pri prvom pokretanju možete prvo pogledati kako Evidenta izgleda u radu.
+- **Prijava problema iz aplikacije:** *Postavke → O aplikaciji → Prijavi problem*, uz tehnički izvještaj bez vaših podataka.
+- Ispravke: ispravka fakture dobija današnji datum, nacrt prebačen u drugu godinu dobija broj te godine, unos od 0 sati se ne prihvata.
 
 ### 1.0.5 — 11.11.2026.
 

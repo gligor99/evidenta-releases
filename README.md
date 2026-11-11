@@ -4,7 +4,7 @@
 
 <p align="center">Fakture, knjiga prihoda, porezi i doprinosi za samostalne preduzetnike u Republici Srpskoj.</p>
 
-<p align="center"><b>Najnovija verzija: 1.0.2</b> (09.11.2026.) · <a href="https://github.com/gligor99/evidenta-releases/releases/latest">Preuzmi</a></p>
+<p align="center"><b>Najnovija verzija: 1.0.3</b> (11.11.2026.) · <a href="https://github.com/gligor99/evidenta-releases/releases/latest">Preuzmi</a></p>
 
 ## Preuzimanje
 
@@ -28,6 +28,14 @@ Evidenta još nije potpisana plaćenim certifikatom, pa sistem pri prvom pokreta
 Probni period traje 30 dana. Ključ licence unosite u *Postavke → Licenca i ažuriranja*.
 
 ## Šta je novo
+
+### 1.0.3 — 11.11.2026.
+
+- **Tamna tema:** u *Postavke → Izgled aplikacije* izaberite Svijetlu, Tamnu ili „Kao sistem“. Fakture, uplatnice i PDF ostaju svijetli, kao na papiru.
+- **Jasniji pragovi na početnoj:** prikazuje se limit od 100.000 KM za malog preduzetnika (sa upozorenjem kad mu se približite), a minimalni porez (600 KM do 50.000 KM prihoda, 1.200 KM preko toga) je posebno objašnjen.
+- **Tačna cijena stavke:** cijena sa više decimala (npr. 0,125 KM po komadu) više se ne zaokružuje pri čuvanju, pa iznos fakture ostaje tačan.
+- Faktura vraćena na „neplaćenu“ ponovo se zatvara ponovnim uvozom istog izvoda.
+- Uvezene fakture sa godinom u broju (npr. INV-2026-0005) više ne pomjeraju numeraciju novih faktura.
 
 ### 1.0.2 — 09.11.2026.
 

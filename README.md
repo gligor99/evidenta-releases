@@ -4,7 +4,7 @@
 
 <p align="center">Fakture, knjiga prihoda, porezi i doprinosi za samostalne preduzetnike u Republici Srpskoj.</p>
 
-<p align="center"><b>Najnovija verzija: 1.0.3</b> (11.11.2026.) · <a href="https://github.com/gligor99/evidenta-releases/releases/latest">Preuzmi</a></p>
+<p align="center"><b>Najnovija verzija: 1.0.4</b> (11.11.2026.) · <a href="https://github.com/gligor99/evidenta-releases/releases/latest">Preuzmi</a></p>
 
 ## Preuzimanje
 
@@ -28,6 +28,11 @@ Evidenta još nije potpisana plaćenim certifikatom, pa sistem pri prvom pokreta
 Probni period traje 30 dana. Ključ licence unosite u *Postavke → Licenca i ažuriranja*.
 
 ## Šta je novo
+
+### 1.0.4 — 11.11.2026.
+
+- **Pouzdanija provjera licence i probnog perioda:** probni period se računa od prvog korištenja i ostaje tačan i nakon reinstalacije ili kad sat na računaru nije dobro podešen. Pri pokretanju aplikacija sa GitHuba preuzima tačan datum; vaši podaci se pri tome ne šalju.
+- Uvoz backupa (*Postavke → Podaci i backup*) traži aktivnu licencu ili probni period. Pregled, PDF i izvoz podataka rade i nakon isteka, kao i do sada.
 
 ### 1.0.3 — 11.11.2026.
 

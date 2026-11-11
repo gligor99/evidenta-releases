@@ -4,7 +4,7 @@
 
 <p align="center">Fakture, knjiga prihoda, porezi i doprinosi za samostalne preduzetnike u Republici Srpskoj.</p>
 
-<p align="center"><b>Najnovija verzija: 1.0.4</b> (11.11.2026.) · <a href="https://github.com/gligor99/evidenta-releases/releases/latest">Preuzmi</a></p>
+<p align="center"><b>Najnovija verzija: 1.0.5</b> (11.11.2026.) · <a href="https://github.com/gligor99/evidenta-releases/releases/latest">Preuzmi</a></p>
 
 ## Preuzimanje
 
@@ -28,6 +28,15 @@ Evidenta još nije potpisana plaćenim certifikatom, pa sistem pri prvom pokreta
 Probni period traje 30 dana. Ključ licence unosite u *Postavke → Licenca i ažuriranja*.
 
 ## Šta je novo
+
+### 1.0.5 — 11.11.2026.
+
+- **Automatski backup u vaš cloud:** Evidenta svaki dan sama pravi kopiju podataka u vaš Google Drive, iCloud Drive, OneDrive ili Dropbox, pa podaci ostaju sačuvani i ako se računar pokvari ili izgubi. Evidenta nema svoj server i vaše podatke ne vidi.
+- **Čarobnjak za podešavanje u 2 minute:** prepoznaje šta je već na računaru, vodi vas kroz podešavanje servisa koji nije podešen i sam nastavlja kad je spreman. Na kraju napravi prvu kopiju i provjeri da se može vratiti.
+- **Šifrovanje lozinkom (preporučeno):** kopije u cloudu ni Google, Apple ni Microsoft ne mogu pročitati.
+- **Vraćanje na novom računaru:** *Postavke → Podaci i backup → Vrati podatke iz cloud kopije*.
+- Početna upozorava ako podaci postoje samo na ovom računaru ili ako backup ne prolazi.
+- Lokalna dnevna kopija se pravi i kad aplikacija ostane otvorena danima.
 
 ### 1.0.4 — 11.11.2026.
 
